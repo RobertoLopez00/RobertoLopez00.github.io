@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <script type="text/javascript">
+        function dibujarCanvas(){
+            var canvas = document.getElementById("miCanvas");
+            var contexto = canvas.getContext('2d');
+            contexto.fillStyle = 'Green';
+            contexto.fillRect(0,0,450,500);
+        }
+    </script>
+</head>
+<body  onLoad="dibujarCanvas();">
+    <h1>Ejemplo de Bootstrap</h1>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UDB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item nav-item light">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Campus</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sobre nosotros
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+        <div class="container my-3" style="background-color: rgb(31, 38, 38);">
+            <h1 style="color: white; text-align: center;">Historia de la Universidad</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <h2 class="container mx-5">Alumnos por Campus</h2>
+            </div>
+            <div  class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <table class="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Campus</th> 
+                            <th>Cantidad de Estudiantes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Soyapango</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Antiguo</td>
+                            <td>700</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Virtual</td>
+                            <td>500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <canvas id="miCanvas" width="450" height="500">
+                Tu navegador no puede mostrar este contenido.
+            </canvas>
+            <p>
+                Ejemplo del uso de la etiqueta canvas
+                aulaClic Canvas:
+            </p>
+        </div>
+</body>
+</html>

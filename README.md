@@ -22,3 +22,8 @@
  **4) FECHA DE ENTREGA:**
  
       Lunes 12 de Septiembre de 2022
+      
+ **LINK DE LA INFOGRAFIA:**
+ 
+      https://www.canva.com/design/DAFL_8HozyU/7The_Qx4UJj-IujiR9qwMw/edit
+      

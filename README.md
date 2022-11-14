@@ -1,4 +1,4 @@
-# Trabajo de Investigacion#2
+# Trabajo de Investigacion#3
 ![image](https://user-images.githubusercontent.com/79995182/188522186-37932faa-4194-4c29-b288-f1530fa68e41.png)
 
 
@@ -21,7 +21,7 @@
 
  **4) FECHA DE ENTREGA:**
  
-      Lunes 19 de Octubre de 2022
+      Lunes 13 de Noviembre de 2022
       
  **LINK DE LA INFOGRAFIA:**
  

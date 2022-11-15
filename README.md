@@ -25,5 +25,5 @@
       
  **LINK DE LA INFOGRAFIA:**
  
-      https://www.canva.com/design/DAFL_8HozyU/7The_Qx4UJj-IujiR9qwMw/edit
+      https://www.canva.com/design/DAFQqQtEvco/9Vggg7seD2jdDTwNy-GZww/edit
       

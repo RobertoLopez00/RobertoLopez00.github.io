@@ -21,7 +21,7 @@
 
  **4) FECHA DE ENTREGA:**
  
-      Lunes 13 de Noviembre de 2022
+      Lunes 14 de Noviembre de 2022
       
  **LINK DE LA INFOGRAFIA:**
  
